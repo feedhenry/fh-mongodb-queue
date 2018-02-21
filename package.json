@@ -1,7 +1,7 @@
 {
-  "name": "mongodb-queue",
+  "name": "fh-mongodb-queue",
   "version": "2.2.0",
-  "description": "Message queues which uses MongoDB.",
+  "description": "Message queues which uses MongoDB. Fork of https://github.com/chilts/mongodb-queue",
   "main": "mongodb-queue.js",
   "scripts": {
     "test": "set -e; for FILE in test/*.js; do node $FILE; done"
@@ -12,14 +12,13 @@
     "mongodb": "^2.0.48",
     "async": "^1.5.0"
   },
-  "homepage": "https://github.com/chilts/mongodb-queue",
+  "homepage": "https://github.com/feedhenry/fh-mongodb-queue",
   "repository": {
     "type": "git",
-    "url": "git://github.com/chilts/mongodb-queue.git"
+    "url": "git://github.com/feedhenry/fh-mongodb-queue.git"
   },
   "bugs": {
-    "url": "http://github.com/chilts/mongodb-queue/issues",
-    "mail": "andychilton@gmail.com"
+    "url": "https://issues.jboss.org/projects/FH/issues"
   },
   "author": {
     "name": "Andrew Chilton",
